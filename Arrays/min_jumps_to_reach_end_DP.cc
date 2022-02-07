@@ -1,3 +1,11 @@
+/*
+Leetcode: https://leetcode.com/problems/jump-game-ii/
+
+Approach: Dynamic Programming (building jumps[] from left to right)
+Time Complexity: O(n^2) 
+Space Complexity: O(1)
+*/
+
 int jump(vector<int>& arr) {
     int n = arr.size();
 

@@ -1,3 +1,11 @@
+/*
+Leetcode: https://leetcode.com/problems/jump-game-ii/
+
+Approach: Naive (Greedy BFS Sliding Window)
+Time Complexity: O(n^2) 
+Space Complexity: O(1)
+*/
+
 int jump(vector<int>& arr) {
     int start = 0, end = 0, maxReach = start + arr[0], steps = 0;
     int n = arr.size();
