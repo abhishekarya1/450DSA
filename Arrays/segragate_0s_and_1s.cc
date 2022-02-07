@@ -6,7 +6,6 @@ Time Complexity: O(n)
 Space Complexity: O(1)
 
 Alternate naive O(n) solution: Traverse array and count the number of elements in each category. Traverse a second time and place elements accordingly.
-
 */
 
 #include<bits/stdc++.h>
