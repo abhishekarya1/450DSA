@@ -1,7 +1,7 @@
 /*
 Link: https://leetcode.com/problems/merge-intervals/
 
-Time Complexity: O(n)
+Time Complexity: O(nlogn)
 Space Complexity: O(1)
 */
 
