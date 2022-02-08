@@ -18,7 +18,9 @@ int main() {
 	int preSum = 0;
 	for (int i = 0; i < n; i++) {
 		preSum += arr[i];                   //calculate prefix sum
-		if (preSum == 0 || s.find(preSum) != s.end()) { //check if it is 0 or seen earlier
+		if (preSum == 0 || s.find(preSum) != s.end()) { 
+		//check if it is 0 or seen earlier 
+			// (if sum repeats then that means there is a subaray in between which contributed 0 to sum)
 			cout << boolalpha << true;
 			return 0;
 		}
